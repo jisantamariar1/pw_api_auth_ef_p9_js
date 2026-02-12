@@ -4,7 +4,7 @@ import java.time.Instant;
 import java.util.Set;
 
 import io.smallrye.jwt.build.Jwt;
-import jakarta.inject.Inject; // Necesario para inyectar el servicio
+import jakarta.inject.Inject; 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;
 import jakarta.ws.rs.Produces;
@@ -13,7 +13,7 @@ import jakarta.ws.rs.core.MediaType;
 import uce.edu.web.api.application.UsuarioService;
 import uce.edu.web.api.domain.Usuario;
 
-@Path("/auth") // Ajustar el path base si es necesario (ej: /api/v1)
+@Path("/auth") 
 public class AuthResource {
 
     // 1. INYECTAMOS TU SERVICIO DE USUARIOS
